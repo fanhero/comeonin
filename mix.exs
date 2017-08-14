@@ -29,7 +29,7 @@ defmodule Comeonin.Mixfile do
   defp deps do
     [
       {:argon2_elixir, "~> 1.2", optional: true},
-      {:bcrypt_elixir, "~> 0.12", optional: true},
+      {:bcrypt_elixir, github: "fanhero/bcrypt_elixir"},
       {:pbkdf2_elixir, "~> 0.12", optional: true},
       {:earmark, "~> 1.2", only: :dev},
       {:ex_doc,  "~> 0.16", only: :dev}
